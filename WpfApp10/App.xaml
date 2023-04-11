@@ -5,6 +5,8 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
 
+
+
         <Style x:Key="btn" TargetType="{x:Type Button}">
             <Setter Property="FontSize" Value="30"></Setter>
             <Setter Property="Template">
@@ -22,6 +24,7 @@
 
         <Style x:Key="btn1" TargetType="{x:Type Button}">
             <Setter Property="FontSize" Value="20"></Setter>
+            
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="{x:Type Button}">

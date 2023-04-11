@@ -12,11 +12,12 @@
             <ImageBrush ImageSource="Image/tab.png"/>
         </Grid.Background>
 
+        <Image Source="Image/battery-full.png" Width="20" Height="20" Margin="0,0,430,420" ></Image>
         <Image Source="Image/wifi.png" Width="20" Height="20" Margin="1,1,570,420"></Image>
         <Image Source="Image/5g.png" Width="20" Height="20" Margin="0,0,500,420"></Image>
         <Image Source="Image/rkeeper.png" Margin="246,55,220,439"></Image>
 
-        <DatePicker SelectedDate="{x:Static sys:DateTime.Today}" Width="100" Height="20" Margin="480,1,1,350" Background="Transparent"/>
+        <DatePicker BorderThickness="0" SelectedDate="{x:Static sys:DateTime.Today}" Width="90" Height="20" Margin="500,1,1,350"/>
 
 
 
@@ -44,11 +45,10 @@
         <Button x:Name="button8" Style="{StaticResource btn}"  Content="8" Width="70" Height="70"  Margin="80,200,75,1" Click="button8_Click"></Button>
         <Button x:Name="button9" Style="{StaticResource btn}"  Content="9" Width="70" Height="70"  Margin="210,200,1,0" Click="button9_Click"></Button>
         <Button x:Name="button0" Style="{StaticResource btn}"  Content="0" Width="70" Height="70"  Margin="3,360,200,0" Click="button0_Click"></Button>
-        <Button x:Name="enter" Style="{StaticResource btn1}" Content="Enter" Width="160" Height="70"  Margin="110,360,0,0" Click="enter_Click"></Button>
+        <Button x:Name="enter" Style="{StaticResource btn1}"   Width="172" Height="70"  Margin="110,360,0,0" Click="enter_Click">
+            <Image Source="Image/enter.png" Width="40" Height="35" ></Image>
+        </Button>
 
 
     </Grid>
-
-
-
 </Window>

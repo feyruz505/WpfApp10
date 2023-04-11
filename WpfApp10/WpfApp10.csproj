@@ -9,8 +9,10 @@
 
   <ItemGroup>
     <None Remove="Image\5g.png" />
+    <None Remove="Image\battery-full.png" />
     <None Remove="Image\cashier.png" />
     <None Remove="Image\delete.png" />
+    <None Remove="Image\enter.png" />
     <None Remove="Image\rkeeper.png" />
     <None Remove="Image\tab.png" />
     <None Remove="Image\wifi.png" />
@@ -18,8 +20,10 @@
 
   <ItemGroup>
     <Resource Include="Image\5g.png" />
+    <Resource Include="Image\battery-full.png" />
     <Resource Include="Image\cashier.png" />
     <Resource Include="Image\delete.png" />
+    <Resource Include="Image\enter.png" />
     <Resource Include="Image\rkeeper.png" />
     <Resource Include="Image\tab.png" />
     <Resource Include="Image\wifi.png" />
